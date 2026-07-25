@@ -3,6 +3,6 @@
   "firmwareVersion": "1.0.1",
   "releaseDate": "2026-07-20",
   "releaseNotes": "1. 新增 GitHub OTA 在线检查更新功能\n2. 优化 AppKit 与 SwiftUI 高采样率图表渲染效率\n3. 增强 USB-PD 3.1 报文解码准确度",
-  "appDownloadUrl": "https://github.com/KaiwetN/K2upup/releases",
-  "firmwareDownloadUrl": "https://raw.githubusercontent.com/KaiwetN/K2upup/main/firmware/k2_latest.bin"
+  "appDownloadUrl": "https://github.com/KaiwetN/KaiwetLab/releases",
+  "firmwareDownloadUrl": "https://raw.githubusercontent.com/KaiwetN/KaiwetLab/main/firmware/k2_latest.bin"
 }
