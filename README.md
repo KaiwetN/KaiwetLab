@@ -27,9 +27,9 @@ Intel Mac（`x86_64`）不受支持。
 
 前往 [Releases](https://github.com/KaiwetN/KaiwetLab/releases/latest) 下载最新版。当前版本可直接下载：
 
-- [KaiwetLab 1.0.1 arm64](https://github.com/KaiwetN/KaiwetLab/releases/download/v1.0.1/KaiwetLab-1.0.1-arm64.zip)
+- [KaiwetLab 1.0.1 arm64 DMG](https://github.com/KaiwetN/KaiwetLab/releases/download/v1.0.1/KaiwetLab-1.0.1-arm64.dmg)
 
-解压后将 `KaiwetLab.app` 移动到“应用程序”文件夹。
+打开 DMG 后，将 `KaiwetLab.app` 拖到“应用程序”文件夹。
 
 ### 首次启动
 
@@ -59,10 +59,10 @@ KaiwetLab 使用 Sparkle 2 获取签名更新：
 
 ## 文件完整性
 
-KaiwetLab 1.0.1 arm64 ZIP：
+KaiwetLab 1.0.1 arm64 DMG：
 
 ```text
-SHA-256  ed728514924b9aeb2fe50a024a93a1a560c0a60f675985b9a4ef7f4af9c06949
+SHA-256  dce6266f32e922f3f8ebe05179a15b9aed1819be5653ae5ea7d43a24a75d18b9
 ```
 
 Sparkle 更新包还使用 EdDSA 签名验证，应用不会安装签名不匹配的更新。
