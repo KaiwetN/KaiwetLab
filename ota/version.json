@@ -1,8 +1,8 @@
 {
-  "appVersion": "1.0.1",
-  "firmwareVersion": "1.0.1",
-  "releaseDate": "2026-07-20",
-  "releaseNotes": "1. 新增 GitHub OTA 在线检查更新功能\n2. 优化 AppKit 与 SwiftUI 高采样率图表渲染效率\n3. 增强 USB-PD 3.1 报文解码准确度",
-  "appDownloadUrl": "https://github.com/KaiwetN/KaiwetLab/releases",
-  "firmwareDownloadUrl": "https://raw.githubusercontent.com/KaiwetN/KaiwetLab/main/firmware/k2_latest.bin"
+  "appVersion": "1.1.0",
+  "firmwareVersion": "1.1.0",
+  "releaseDate": "2026-08-22",
+  "releaseNotes": "1. 新增 KM003C 在线固件目录、本地固件升级与 Bootloader 模式切换\n2. 新增 KM003C 专家级 USB-PD 抓包与位域解码分析视图\n3. 新增背景图与水印图片导入、交互式裁剪与图表透明度调节\n4. 优化 Metal 高帧率波形渲染、视口跟随与数据空隙测量\n5. 增强智能风扇蓝牙通信、库仑计统计与 OTA 升级\n6. 集成 MCP (Model Context Protocol) 自动化服务器",
+  "appDownloadUrl": "https://github.com/KaiwetN/KaiwetLab/releases/download/v1.1.0/KaiwetLab-1.1.0-arm64.dmg",
+  "firmwareDownloadUrl": "https://raw.githubusercontent.com/KaiwetN/KaiwetLab/main/ota/version.json"
 }
