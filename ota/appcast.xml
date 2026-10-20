@@ -3,15 +3,15 @@
     <channel>
         <title>KaiwetLab</title>
         <item>
-            <title>1.2.1</title>
-            <pubDate>Mon, 19 Oct 2026 20:11:11 +0800</pubDate>
+            <title>1.2.2</title>
+            <pubDate>Tue, 20 Oct 2026 20:14:16 +0800</pubDate>
             <link>https://github.com/KaiwetN/KaiwetLab/releases</link>
             <sparkle:minimumUpdateVersion>6</sparkle:minimumUpdateVersion>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/KaiwetN/KaiwetLab/releases/download/v1.2.1/KaiwetLab-1.2.1-arm64.dmg" length="5380608" type="application/octet-stream" sparkle:edSignature="2BQfD/gPo4dI+EcyzqPqXxEFAw3Esm42cJCmvpypgQdx8X2no/Wob17SJlXbhQuuKM1qmF+/L1kJ/efZibXyCA=="/>
+            <enclosure url="https://github.com/KaiwetN/KaiwetLab/releases/download/v1.2.2/KaiwetLab-1.2.2-arm64.dmg" length="5447680" type="application/octet-stream" sparkle:edSignature="Qv4ZWFEW5RL5KJ5eNGfbGmhNti41/ApULd9Mk0hWTseToSeyNuwh/88Hwls7JkBH3FvSBRL9BBAG74tl/FuvAA=="/>
         </item>
     </channel>
 </rss>
