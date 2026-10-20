@@ -4,14 +4,31 @@
         <title>KaiwetLab</title>
         <item>
             <title>1.2.2</title>
-            <pubDate>Tue, 20 Oct 2026 20:14:16 +0800</pubDate>
+            <pubDate>Tue, 20 Oct 2026 20:33:02 +0800</pubDate>
             <link>https://github.com/KaiwetN/KaiwetLab/releases</link>
             <sparkle:minimumUpdateVersion>6</sparkle:minimumUpdateVersion>
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/KaiwetN/KaiwetLab/releases/download/v1.2.2/KaiwetLab-1.2.2-arm64.dmg" length="5447680" type="application/octet-stream" sparkle:edSignature="Qv4ZWFEW5RL5KJ5eNGfbGmhNti41/ApULd9Mk0hWTseToSeyNuwh/88Hwls7JkBH3FvSBRL9BBAG74tl/FuvAA=="/>
+            <description sparkle:format="markdown"><![CDATA[macOS 14+（Apple Silicon）
+
+更新内容：
+1. 曲线对比新增电量（Wh）模式：按功率积分得到累计电量，用于比较充电完成速率。
+   各曲线均从 0 Wh 起算，越陡充电越快，右端高度即该组累计的电量
+2. 曲线对比新增悬浮读数：鼠标移过即显示竖线、各曲线交点圆点，以及按组列出的数值与 Δ 差值。
+   读数取自屏幕上画出的那条曲线，断点处显示“—”而不跨断点插值
+3. 曲线对比新增可展开的“曲线设置”面板：逐条调整颜色（预设色板或任意自定义色）、
+   实线/虚线/点线、线宽、显示开关与时间偏移；面板高度随曲线数量自适应
+4. 修复对比模式下深缩放时曲线两端到不了绘图区边界的问题
+5. 修复电量曲线在放大后不再上升、退化成水平线的问题
+6. 修复 X 轴最左端标签被裁切、只剩“:00”的问题；首末标签现贴边对齐
+7. 修复导入对比记录时可能因下标越界导致的崩溃
+8. 修复电量模式下纵轴深缩放被“从 0 起”压平的问题
+
+SHA-256: 67b00cf0432b5c7ecefc49a5cf0700ea5b2500d6f9219a2cfd5231a878aedad9
+]]></description>
+            <enclosure url="https://github.com/KaiwetN/KaiwetLab/releases/download/v1.2.2/KaiwetLab-1.2.2-arm64.dmg" length="5448192" type="application/octet-stream" sparkle:edSignature="tEx4981T6IGDmFQgWYqVjQarW9S/sDwz+kR76Yu123OPUC3esuU9Pv09P+KKUdowiw2ZTpW/wPeDtvJ2k8UdDw=="/>
         </item>
     </channel>
 </rss>
