@@ -3,43 +3,32 @@
     <channel>
         <title>KaiwetLab</title>
         <item>
-            <title>1.3.0</title>
-            <pubDate>Sat, 14 Nov 2026 00:00:29 +0800</pubDate>
+            <title>1.3.1</title>
+            <pubDate>Sat, 21 Nov 2026 00:27:23 +0800</pubDate>
             <link>https://github.com/KaiwetN/KaiwetLab/releases</link>
             <sparkle:minimumUpdateVersion>6</sparkle:minimumUpdateVersion>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[macOS 14+（Apple Silicon）
 
 更新内容：
-1. 波形页面新增独立的“图表设置”面板（图表 / 曲线 / 坐标轴）：
-   - 电压/电流新增“自动”（紧贴波动区间）与“自动2”（0 基准 1-2-5 整步长）坐标轴标尺，功率支持独立“0W 基线 + 10% 裕量”标尺模式
-   - 五条 Y 轴（VBUS / IBUS / PWR / Wh / 温度）支持各自配置白色、主读数颜色或任意自定义颜色，并可调整左右排列顺序
-   - 支持键盘操作波形：方向键左右平移、`⌘+` / `⌘−` 缩放、`⌘0` 适配整段记录
-   - 支持展开/收起统计卡片（覆盖整段时自动去重），并在系统开启“不使用颜色区分”时为对比曲线自动切换不同线型
-2. PD 解析器增强：
-   - 新增对 KM003C 硬件事件记录（Attach / Detach 等）的解析与表格展示，并在导入与导出 POWER-Z 格式时保留连续编号与原始数据
-   - 新增“跟随”最新报文开关及详情面板显示模式切换
-3. K2 与固件升级改进：
-   - 新增 K2 V5.9 / V6.0 固件的线阻测量支持，并扩展 WITRN 机型（CC1 / U3 / U3L / U3LP / C4 / C4L / C5 / C5L / K2 / A2 系列）型号识别与校验
-   - 更正 K2 手动进入 DFU 模式的按键提示为按住 `-` 键
-   - 固件升级页签及页内界面加入 `BETA` 标识，明确当前固件刷写功能处于 Beta 阶段
-   - 优化 KM003C 在线固件目录缓存，重启应用后可保留上次刷新的版本列表与本地缓存校验状态
-4. 原生桌面体验与安全性增强：
-   - 补全 macOS 原生菜单栏（导入/导出、录波控制、页面跳转、内置使用手册等），并支持使用空格键暂停/恢复当前监控
-   - 支持在重启后恢复上次的多窗口布局与当前页签（默认保持离线，不会自动连接设备）
-   - 退出应用前检测进行中的录波或导出任务，给出确认提示并同步安全封存文件，避免数据损坏
-   - 多开效率组合界面改用“不参与 / 输入 / 输出”互斥分段选择，并补充未就绪状态说明
-5. 修复与优化：
-   - 修复部分记录缺少或全零 `Energy(Wh)` 列时电量曲线无法积分或缩放后起始值归零的问题
-   - 完善全界面 VoiceOver 无障碍标签、字号/字重与高对比度适配
-   - 应用包内置本地用户手册，可在菜单栏“帮助”中直接打开
+1. 波形流畅度大幅提升：
+   - 优化高采样率与多曲线全开下的实时刷新表现，设置中的高帧率与“无上限”选项现可充分发挥高刷屏幕性能
+   - 大幅提升缩放与平移波形时的响应流畅度，操作全程保持完整曲线细节
+2. 波形工具条与交互优化：
+   - 将“采集速率”与“截图”按钮移至图表上方工具条（截图按钮位于最右侧），避免遮挡绘图区域
+   - 修复编辑曲线标题后点击其他区域时输入光标仍持续闪烁的问题
+   - 移除点击曲线绘制区域时外框出现的高亮边框
+3. 读数显示与对齐修复：
+   - 优化悬浮读数卡片与 T1-T2 差值浮窗排版，所有通道数值现严格右对齐
+   - 统一电量（Wh）的正负符号显示规则，与当前“电流方向判定”设置保持一致
+4. 常规稳定性与安全性改进
 
-SHA-256: e945fc07c99386bdc05a6da139a446d8fb36ee15164f435dd486f80d6de46179
+SHA-256: 6c6812357e19101485cb8f9865d013775c0763628d1ec85beb6ca02951ae5b79
 ]]></description>
-            <enclosure url="https://github.com/KaiwetN/KaiwetLab/releases/download/v1.3.0/KaiwetLab-1.3.0-arm64.dmg" length="5641728" type="application/octet-stream" sparkle:edSignature="8Eh8LQZ6LX49SCf1B/kzGS7WxMBuoxsaBq7FLg6X6RkZhGknKTMPBx5y1/N6Rh7j6vu2qy4NMLi3tYpqqIpZCQ=="/>
+            <enclosure url="https://github.com/KaiwetN/KaiwetLab/releases/download/v1.3.1/KaiwetLab-1.3.1-arm64.dmg" length="5645312" type="application/octet-stream" sparkle:edSignature="9mSKAL/wkr7+mHXELwksIayN0EdtGCoS+2byA+4NziJLdy4Ua0sHoiTRpuZdJbK1stHGmrhbbOc8ARD1Qf21Cw=="/>
         </item>
     </channel>
 </rss>
